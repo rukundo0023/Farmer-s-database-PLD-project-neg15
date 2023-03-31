@@ -31,6 +31,20 @@ crop_info = {
             "Sunlight requirement": "Full sun",
             "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium)"
         }
+    },
+     "Cassava": {
+        "Planting season": "October - December",
+        "Harvesting season": "8-12 months after planting",
+        "Yield per acre": "20-30 tons per acre",
+        "Uses": "Food and industrial purposes",
+        "Pests and diseases": "Cassava mealybug and cassava mosaic disease",
+        "Growing conditions": {
+            "Soil type": "Sandy loam, loam, or clay loam",
+            "Temperature range": "25-30°C",
+            "Rainfall requirement": "1000-1500 mm/year",
+            "Sunlight requirement": "Full sun to partial shade",
+            "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
+        }
     }
 }
 
