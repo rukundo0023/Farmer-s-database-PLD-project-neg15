@@ -1,0 +1,36 @@
+#!/usr/bin/python3
+# Ask the farmer to input the name of the crop
+crop_name = input("Enter the name of the crop: ")
+
+# Define a dictionary with crop information
+crop_info = {
+    "Maize": {
+        "Planting season": "August - September",
+        "Harvesting season": "December - January",
+        "Yield per acre": "20-30 bags (90 kg/bag)",
+        "Uses": "Food, feed, and industrial purposes",
+        "Pests and diseases": "Stalk borers, armyworms, and gray leaf spot",
+        "Growing conditions": {
+            "Soil type": "Sandy loam, loam, or clay loam",
+            "Temperature range": "18-35°C",
+            "Rainfall requirement": "500-1000 mm/year",
+            "Sunlight requirement": "Full sun",
+            "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium)"
+        }
+    }
+}
+
+# Check if the crop name exists in the dictionary
+if crop_name in crop_info:
+    # If the crop exists, print its information
+    print("Here is the information for", crop_name)
+    print("Planting season:", crop_info[crop_name]["Planting season"])
+    print("Harvesting season:", crop_info[crop_name]["Harvesting season"])
+    print("Yield per acre:", crop_info[crop_name]["Yield per acre"])
+    print("Uses:", crop_info[crop_name]["Uses"])
+    print("Pests and diseases:", crop_info[crop_name]["Pests and diseases"])
+    print("Growing conditions:")
+    for condition, requirement in crop_info[crop_name]["Growing conditions"].items():
+        print("-", condition + ":", requirement)
+else:
+    print("Sorry, we do not have information on", crop_name)
