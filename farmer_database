@@ -17,6 +17,20 @@ crop_info = {
             "Sunlight requirement": "Full sun",
             "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium)"
         }
+    },
+    "Beans": {
+        "Planting season": "September - October",
+        "Harvesting season": "January - February",
+        "Yield per acre": "7-10 bags (90 kg/bag)",
+        "Uses": "Food and feed",
+        "Pests and diseases": "Bean beetles, aphids, and bacterial blight",
+        "Growing conditions": {
+            "Soil type": "Sandy loam, loam, or clay loam",
+            "Temperature range": "18-30°C",
+            "Rainfall requirement": "600-1200 mm/year",
+            "Sunlight requirement": "Full sun",
+            "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium)"
+        }
     }
 }
 
