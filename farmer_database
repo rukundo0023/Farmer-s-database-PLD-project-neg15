@@ -45,8 +45,27 @@ crop_info = {
             "Sunlight requirement": "Full sun to partial shade",
             "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
         }
-    }
-}
+    },
+     "Green beans": {
+        "Planting season": "October - November",
+        "Harvesting season": "February - March",
+        "Yield per acre": "4-6 tons per acre",
+        "Uses": "Food",
+        "Pests and diseases": "Aphids, thrips, and bean rust",
+        "Growing conditions": {
+            "Soil type": "Loam or sandy loam",
+            "Temperature range": "20-30°C",
+            "Rainfall requirement": "600-1000 mm/year",
+            "Sunlight requirement": "Full sun",
+            "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
+        }  
+    },
+ }          
+
+
+
+
+
 
 # Check if the crop name exists in the dictionary
 if crop_name in crop_info:
