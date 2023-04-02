@@ -60,8 +60,22 @@ crop_info = {
             "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
         }
     }
-}
 
+"Pea": {
+    "Planting season": "May - June",
+    "Harvesting season": "September - October",
+    "Yield per acre": "2-3 tons per acre
+    "Uses": "Food",
+    "Pests and diseases": "Pea weevil and powdery mildew",
+    "Growing conditions": {
+        "Soil type": "Loam or sandy loam",
+        "Temperature range": "10-20°C",
+        "Rainfall requirement": "400-500 mm/year",
+        "Sunlight requirement": "Full sun",
+        "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
+    }
+},
+}
 # Check if the crop name exists in the dictionary
 if crop_name in crop_info:
     # If the crop exists, print its information
