@@ -144,6 +144,20 @@ crop_info = {
             "fertilizer_requirement": "Balanced fertilizer, such as 10-10-10 mix, applied every 3-4 weeks"
         }
     },
+    "eggplant": {
+        "planting_season": "Late spring to early summer",
+        "harvesting_season": "Midsummer to fall",
+        "yield_per_acre": "10-20 tons per acre",
+        "uses": "Fresh consumption, cooking",
+        "pests_and_diseases": "Flea beetles, spider mites, aphids, bacterial wilt",
+        "growing_conditions": {
+            "soil_type": "Well-drained soil with pH between 5.5 and 6.5",
+            "temperature_range": "20-30°C",
+            "rainfall_requirement": "At least 1 inch of water per week",
+            "sunlight_requirement": "Full sun, at least 6-8 hours of direct sunlight per day",
+            "fertilizer_requirement": "Balanced fertilizer, such as 10-10-10 mix, applied every 3-4 weeks"
+        }
+    },
 }
 # Check if the crop name exists in the dictionary
 if crop_name in crop_info:
