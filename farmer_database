@@ -18,7 +18,7 @@ crop_info = {
             "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium)"
         }
     },
-    "Beans": {
+     "Beans": {
         "Planting season": "September - October",
         "Harvesting season": "January - February",
         "Yield per acre": "7-10 bags (90 kg/bag)",
@@ -74,7 +74,7 @@ crop_info = {
             "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
         }  
     },
-      "Irish potato": {
+     "Irish potato": {
         "Planting season": "February - March",
         "Harvesting season": "June - August",
         "Yield per acre": "10-15 tons per acre",
@@ -88,7 +88,7 @@ crop_info = {
             "Fertilizer requirement": "High in potassium and phosphorus, moderate in nitrogen"
         }
     },
-      "onion": {
+     "onion": {
         "Planting season": "September - October",
         "Harvesting season": "May - June",
         "Yield per acre": "12-15 tons per acre",
@@ -114,9 +114,9 @@ crop_info = {
             "Rainfall requirement": "400-500 mm/year",
             "Sunlight requirement": "Full sun",
             "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
-    }
-},
-    "Rice": {
+        }
+    },
+     "Rice": {
         "Planting season": "September - October",
         "Harvesting season": "January - February",
         "Yield per acre": "2-3 tons per acre",
@@ -128,39 +128,23 @@ crop_info = {
             "Rainfall requirement": "1200-1800 mm/year",
             "Sunlight requirement": "Full sun",
             "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
-    }
-
-"Pea": {
-    "Planting season": "May - June",
-    "Harvesting season": "September - October",
-    "Yield per acre": "2-3 tons per acre
-    "Uses": "Food",
-    "Pests and diseases": "Pea weevil and powdery mildew",
-    "Growing conditions": {
-        "Soil type": "Loam or sandy loam",
-        "Temperature range": "10-20°C",
-        "Rainfall requirement": "400-500 mm/year",
-        "Sunlight requirement": "Full sun",
-        "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
-    }
-},
-
-"Rice": {
-    "Planting season": "September - October",
-    "Harvesting season": "January - February",
-    "Yield per acre": "2-3 tons per acre",
-    "Uses": "Food",
-    "Pests and diseases": "Rice blast, bacterial leaf blight, and brown plant hopper",
-    "Growing conditions": {
-        "Soil type": "Loam or clay loam",
-        "Temperature range": "25-35°C",
-        "Rainfall requirement": "1200-1800 mm/year",
-        "Sunlight requirement": "Full sun",
-        "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
-    }
-}
-},
-    "tomatoes": {
+        },
+    },
+     "Sorghum": {
+        "Planting season": "February - March",
+        "Harvesting season": "July - August",
+        "Yield per acre": "2-3 tons per acre",
+        "Uses": "Food and animal feed",
+        "Pests and diseases": "Aphids, shoot fly, and head smut",
+        "Growing conditions": {
+            "Soil type": "Sandy loam, loam, or clay loam",
+            "Temperature range": "25-35°C",
+            "Rainfall requirement": "400-800 mm/year",
+            "Sunlight requirement": "Full sun",
+            "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
+        }
+    },
+     "tomatoes": {
         "planting_season": "Late spring after the last frost",
         "harvesting_season": "Midsummer to fall",
         "yield_per_acre": "10-20 tons per acre",
@@ -174,7 +158,7 @@ crop_info = {
             "fertilizer_requirement": "Balanced fertilizer, such as 10-10-10 mix, applied every 3-4 weeks"
         }
     },
-    "eggplant": {
+     "eggplant": {
         "planting_season": "Late spring to early summer",
         "harvesting_season": "Midsummer to fall",
         "yield_per_acre": "10-20 tons per acre",
@@ -188,6 +172,34 @@ crop_info = {
             "fertilizer_requirement": "Balanced fertilizer, such as 10-10-10 mix, applied every 3-4 weeks"
         }
     },
+     "Banana": {
+        "Planting season": "Throughout the year",
+        "Harvesting season": "9-18 months after planting",
+        "Yield per acre": "10-20 tons per acre",
+        "Uses": "Food and industrial purposes",
+        "Pests and diseases": "Weevils, nematodes, and bacterial wilt",
+        "Growing conditions": {
+            "Soil type": "Loam, sandy loam, or clay loam",
+            "Temperature range": "25-30°C",
+            "Rainfall requirement": "1000-2000 mm/year",
+            "Sunlight requirement": "Partial shade",
+            "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
+        }
+    },
+     "Wheat": {
+        "Planting season": "May - June",
+        "Harvesting season": "September - October",
+        "Yield per acre": "2-3 tons per acre",
+        "Uses": "Food and animal feed",
+        "Pests and diseases": "Aphids, Hessian fly, and powdery mildew",
+        "Growing conditions": {
+            "Soil type": "Loam or sandy loam",
+            "Temperature range": "15-20°C",
+            "Rainfall requirement": "400-600 mm/year",
+            "Sunlight requirement": "Full sun",
+            "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
+        }
+    }
 }
 # Check if the crop name exists in the dictionary
 if crop_name in crop_info:
