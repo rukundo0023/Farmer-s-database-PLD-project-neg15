@@ -105,7 +105,7 @@ crop_info = {
       "Pea": {
         "Planting season": "May - June",
         "Harvesting season": "September - October",
-        "Yield per acre": "2-3 tons per acre
+        "Yield per acre": "2-3 tons per acre",
         "Uses": "Food",
         "Pests and diseases": "Pea weevil and powdery mildew",
         "Growing conditions": {
@@ -114,6 +114,20 @@ crop_info = {
             "Rainfall requirement": "400-500 mm/year",
             "Sunlight requirement": "Full sun",
             "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
+    }
+},
+    "Rice": {
+        "Planting season": "September - October",
+        "Harvesting season": "January - February",
+        "Yield per acre": "2-3 tons per acre",
+        "Uses": "Food",
+        "Pests and diseases": "Rice blast, bacterial leaf blight, and brown plant hopper",
+        "Growing conditions": {
+            "Soil type": "Loam or clay loam",
+            "Temperature range": "25-35°C",
+            "Rainfall requirement": "1200-1800 mm/year",
+            "Sunlight requirement": "Full sun",
+            "Fertilizer requirement": "NPK (Nitrogen-Phosphorus-Potassium) and manure"
     }
 },
 
