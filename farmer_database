@@ -74,7 +74,22 @@ crop_info = {
             "Fertilizer requirement": "High in potassium and phosphorus, moderate in nitrogen"
         }
     },
-}
+          "Irish onion": {
+        "Planting season": "September - October",
+        "Harvesting season": "May - June",
+        "Yield per acre": "12-15 tons per acre",
+        "Uses": "Food, seed production",
+        "Pests and diseases": "Onion fly, thrips, purple blotch",
+        "Growing conditions": {
+            "Soil type": "Well-drained, fertile soil",
+            "Temperature range": "10-25°C",
+            "Rainfall requirement": "600-700 mm/year",
+            "Sunlight requirement": "Full sun to partial shade",
+            "Fertilizer requirement": "Nitrogen-rich fertilizer at planting and before bulb formation"
+        }
+    },
+
+
 # Check if the crop name exists in the dictionary
 if crop_name in crop_info:
     # If the crop exists, print its information
