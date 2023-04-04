@@ -215,3 +215,12 @@ if crop_name in crop_info:
         print("-", condition + ":", requirement)
 else:
     print("Sorry, we do not have information on", crop_name)
+
+# Ask user for the number of acres to be cultivated
+num_acres = float(input("Enter the number of acres to be cultivated: "))
+yield_per_acre =  float(input("Enter the number of yield per  acre as provided in the information above: "))
+# Calculate the total yield
+total_yield = num_acres * yield_per_acre
+
+# Print the result
+print("Total yield for", num_acres, "acres is:", total_yield, "kg")
